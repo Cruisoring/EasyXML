@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<!DOCTYPE course [
+<!ELEMENT course (Name, Dept, Instructor, Student)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Dept (#PCDATA)>
+<!ELEMENT Instructor (Name)>
+<!ELEMENT Student (Name*)>
+]>
+<course>
+	<Name>Calculus</Name>
+	<Dept>Math</Dept>
+	<Instructor>
+		<Name>Jim Green</Name>
+	</Instructor>
+	<Student>
+		<Name>Jack</Name>
+		<Name>Mary</Name>
+		<Name>Paul</Name>
+	</Student>
+</course>

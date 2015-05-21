@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE employee [
+<!ELEMENT employee (Name, Dept, Title)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Dept (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+]>
+<employee>
+	<Name>John Goodman</Name>
+	<Dept>Manufacturing</Dept>
+	<Title>Supervisor</Title>
+</employee>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196" started-at="2015-05-21T13:20:57Z" finished-at="2015-05-21T13:20:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196" started-at="2015-05-21T13:20:57Z" finished-at="2015-05-21T13:20:57Z">
+      <class name="org.easyxml.util.JsonTest">
+        <test-method status="PASS" signature="testDocument_toJSON3()[pri:0, instance:org.easyxml.util.JsonTest@4ba2ca36]" name="testDocument_toJSON3" duration-ms="152" started-at="2015-05-21T23:20:57Z" finished-at="2015-05-21T23:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDocument_toJSON3 -->
+      </class> <!-- org.easyxml.util.JsonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
